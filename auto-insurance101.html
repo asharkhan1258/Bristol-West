@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bristol West Bootstrap Page</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="auto.css">
+</head>
+<body>
+
+  <!-- Header Start -->
+  <header class="bw-header" tabindex="-1">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bw-navbar" role="navigation">
+
+        <a href="" class="visually-hidden-focusable">Skip to Main Content</a>
+
+        <a class="navbar-brand bw-brand" href="/">
+          <img
+            src="./images/logo-bristol-west-new.jpg"
+            alt="Bristol West Logo"
+            class="bw-logo"
+          >
+        </a>
+
+        <button
+          class="navbar-toggler bw-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#bwMainNavbar"
+          aria-controls="bwMainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse bw-nav-collapse" id="bwMainNavbar">
+
+          <div class="d-lg-none bw-mobile-menu-head">
+            <span>Menu</span>
+            <button
+              class="btn bw-close-btn"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#bwMainNavbar"
+              aria-label="Close menu"
+            >
+              X
+            </button>
+          </div>
+
+          <ul class="navbar-nav mx-auto bw-main-menu">
+            <li class="nav-item">
+              <a class="nav-link" title="Home" aria-label="Home" href="/">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" title="Why Bristol West" aria-label="Why Bristol West" href="why-bristo.html">Why Bristol West</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" title="Auto Insurance 101" aria-label="Auto Insurance 101" href="auto-insurance101.html">Auto Insurance 101</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" title="Referral Program" aria-label="Referral Program" href="Referral.html">Referral Program</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" title="Claims" aria-label="Claims" href="claim.html">Claims</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link bw-start-quote-link" title="Start Quote" aria-label="Start Quote" href="/">Start Quote</a>
+            </li>
+
+            
+          </ul>
+
+          <ul class="navbar-nav bw-lang-menu">
+            <li class="nav-item">
+              <a class="nav-link" title="Login" aria-label="Login" href="">
+                <i class="fa-solid fa-user"></i>
+                Login
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Header End -->
+
+<section class="hero-banner">
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+
+            <!-- Desktop Image -->
+            <img src="./images/why-britol/auto-1.webp"
+                 alt="Hero Banner"
+                 class="img-fluid w-100 d-none d-md-block">
+
+            <!-- Mobile Image -->
+            <img src="./images/why-britol/auto-1.webp"
+                 alt="Hero Banner"
+                 class="img-fluid w-100 d-block d-md-none">
+
+        </div>
+    </div>
+</section>
+
+<section class="auto-insurance-section py-5">
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-12">
+
+                <div class="auto-content-box bg-white p-4 p-md-5">
+
+                    <div class="row mb-4">
+                        <div class="col-12 col-lg-10">
+                            <h1 class="auto-heading mb-3">
+                                Auto Insurance 101
+                            </h1>
+
+                            <p class="auto-text">
+                                Bristol West® offers quality auto insurance at affordable rates for a wide range of drivers. Whether you have a less-than-perfect driving record, no prior insurance or traffic violations — even a DUI — our coverage options can help you get the coverage you want. We make getting covered as easy as possible.
+                            </p>
+
+                            <p class="auto-highlight">
+                                You can be confident knowing Bristol West has coverage for you
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="coverage-item d-flex gap-3 mb-4">
+                        <div class="coverage-icon-box">
+                            <img src="./images/why-britol/car_collision.webp"
+                                 alt="Liability insurance"
+                                 class="coverage-icon">
+                        </div>
+
+                        <div>
+                            <h2 class="coverage-title">
+                                Liability insurance
+                            </h2>
+
+                            <p class="coverage-text">
+                                Helps cover the cost of the other driver's property and bodily injury expenses if you're found at fault in an accident.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="coverage-item d-flex gap-3 mb-4">
+                        <div class="coverage-icon-box">
+                            <img src="./images/why-britol/car_hail.webp "
+                                 alt="Comprehensive insurance"
+                                 class="coverage-icon">
+                        </div>
+
+                        <div>
+                            <h2 class="coverage-title">
+                                Comprehensive insurance
+                            </h2>
+
+                            <p class="coverage-text">
+                                Provides coverage for physical damage from events that are out of your control, like theft or vandalism and weather events.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="coverage-item d-flex gap-3">
+                        <div class="coverage-icon-box">
+                            <img src="./images/why-britol/car_collision2.webp"
+                                 alt="Collision insurance"
+                                 class="coverage-icon">
+                        </div>
+
+                        <div>
+                            <h2 class="coverage-title">
+                                Collision insurance
+                            </h2>
+
+                            <p class="coverage-text">
+                                Helps cover damage when your vehicle collides with another car or object.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="coverage-carousel-section py-5">
+    <div class="container">
+        <h1 class="auto-heading mb-3 text-center">
+                                More coverage options:
+                            </h1>
+
+        <div id="coverageCarousel" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="./images/why-britol/auto101_carosel1.webp" class="d-block w-50 mx-auto carousel-main-img" alt="Auto insurance coverage">
+
+                    <div class="carousel-content text-center mt-4">
+                        <h4>Uninsured/Underinsured Motorists</h4>
+                        <p>This type of coverage helps protect you if someone else is responsible for an accident you’re in and the other person has no insurance or minimal insurance.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./images/why-britol/auto101_carosel1.webp" class="d-block w-50 mx-auto carousel-main-img" alt="Bodily injury and property damage">
+
+                    <div class="carousel-content text-center mt-4">
+                        <h4>Bodily Injury and Property Damage</h4>
+                        <p>This covers your legal responsibility for an accident where someone else is injured or there is damage to someone else’s property.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./images/why-britol/auto101_carosel1.webp" class="d-block w-50 mx-auto carousel-main-img" alt="Rental reimbursement">
+
+                    <div class="carousel-content text-center mt-4">
+                        <h4>Rental Reimbursement</h4>
+                        <p>If you rent a car after you have a covered loss, we will put up to $50 per day back in your pocket for up to 30 days.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./images/why-britol/auto101_carosel1.webp" class="d-block w-50 mx-auto carousel-main-img" alt="Medical payments">
+
+                    <div class="carousel-content text-center mt-4">
+                        <h4>Medical Payments</h4>
+                        <p>This coverage can pay for your medical care due to a car accident up to the policy limit.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./images/why-britol/auto101_carosel1.webp" class="d-block w-100 carousel-main-img" alt="Towing and roadside service">
+
+                    <div class="carousel-content text-center mt-4">
+                        <h4>Towing and Roadside Service</h4>
+                        <p>If your vehicle needs towing or assistance on the road, this coverage may help with the cost.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#coverageCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#coverageCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+            <div class="carousel-indicators mt-4">
+                <button type="button" data-bs-target="#coverageCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#coverageCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#coverageCarousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#coverageCarousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#coverageCarousel" data-bs-slide-to="4"></button>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="auto-perks-section py-5">
+    <div class="container">
+            <h1 class="auto-heading mb-5 pb-5 text-center">
+              As a Bristol West customer, you’ll enjoy:
+            </h1>
+        <div class="row justify-content-center g-4">
+
+            <div class="col-12 col-md-10 col-lg-6">
+                <div class="card auto-perk-card border-0 h-100">
+                    <img src="./images/why-britol/auto101_image_2_tablet.webp"
+                         alt="Permissive user coverage"
+                         class="card-img-top auto-perk-img">
+
+                    <div class="card-body px-4">
+                        <h3 class="auto-perk-title">
+                            Permissive user coverage.
+                        </h3>
+
+                        <p class="auto-perk-text mt-2">
+                            By providing a driver permission to use your vehicle, they are covered under your vehicle’s insurance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-10 col-lg-6">
+                <div class="card auto-perk-card border-0 h-100">
+                    <img src="./images/why-britol/auto101_image_3_tablet.webp"
+                         alt="$500 trailer physical damage coverage"
+                         class="card-img-top auto-perk-img">
+
+                    <div class="card-body px-4">
+                        <h3 class="auto-perk-title">
+                            $500 trailer physical damage coverage.
+                        </h3>
+
+                        <p class="auto-perk-text mt-2">
+                            Liability coverage is provided for a trailer you own that is attached to a covered vehicle.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-10 col-lg-6">
+                <div class="card auto-perk-card border-0 h-100">
+                    <img src="./images/why-britol/auto101_image_4_tablet.webp"
+                         alt="Rental car coverage"
+                         class="card-img-top auto-perk-img">
+
+                    <div class="card-body px-4">
+                        <h3 class="auto-perk-title">
+                            Rental car coverage.
+                        </h3>
+
+                        <p class="auto-perk-text mt-2">
+                            If you rent a car, you’ll enjoy the same coverage as your personal, Bristol West insured vehicle.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-10 col-lg-6">
+                <div class="card auto-perk-card border-0 h-100">
+                    <img src="./images/why-britol/auto101_image_5_tablet.webp"
+                         alt="Rideshare coverage option"
+                         class="card-img-top auto-perk-img">
+
+                    <div class="card-body px-4">
+                        <h3 class="auto-perk-title">
+                            Rideshare coverage option.
+                        </h3>
+
+                        <p class="auto-perk-text mt-2">
+                            Extends your personal auto policy limits and coverage if you conduct Rideshare activities, including Uber Eats.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+<section class="quote-faq-section py-5">
+    <div class="container">
+         <p class="text-center">Not all policies, discounts, coverages and features are available in all states.</p>
+         <p class="text-center">Coverages are not available in all policies. Where available, coverages may be subject to additional terms, conditions, or limitations.</p>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 ">
+
+                <div class="quote-box text-center p-4 p-md-5">
+                    <h3 class="quote-title mb-3">
+                        Bristol West works to make Auto Insurance easy
+                    </h3>
+
+                    <form>
+                        <label for="zipCode" class="quote-label mb-2">
+                            Get a Car Insurance quote today
+                        </label>
+
+                        <div class="row justify-content-center g-3">
+                            <div class="col-12 col-md-5">
+                                <input id="zipCode"
+                                       type="tel"
+                                       maxlength="5"
+                                       minlength="5"
+                                       placeholder="Enter your Zip Code"
+                                       class="form-control quote-input"
+                                       inputmode="numeric"
+                                       pattern="[0-9]{5}">
+                            </div>
+
+                            <div class="col-12 col-md-4">
+                                <button type="submit" class="btn quote-btn w-100">
+                                    Start Quote
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <a href="#" class="saved-quote-link d-inline-block mt-3">
+                        Retrieve a Saved Quote
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-12 ">
+
+                <h3 class="faq-heading text-center mb-4">
+                    Common Car Insurance Needs:
+                </h3>
+
+                <div class="accordion faq-accordion" id="carInsuranceFaq">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne">
+                                No Prior Insurance?
+                            </button>
+                        </h2>
+                        <div id="faqOne" class="accordion-collapse collapse" data-bs-parent="#carInsuranceFaq">
+                            <div class="accordion-body">
+                                <p>
+                                    <strong>No Prior Insurance? We can help:</strong><br>
+                                    If you never had car insurance, or you let your car insurance lapse, Bristol West can help. We accept nearly all customers with, or without, prior car insurance at competitive rates.
+                                </p>
+                                <p>
+                                    <strong>Why choose Bristol West?</strong><br>
+                                    Bristol West offers flexible, hassle-free car insurance to fit most budgets. Get an online quote today.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo">
+                                Received a DUI / DWI or OWI conviction?
+                            </button>
+                        </h2>
+                        <div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#carInsuranceFaq">
+                            <div class="accordion-body">
+                                <p>
+                                    <strong>If you received a DUI / DWI or OWI conviction, we can help:</strong><br>
+                                    Bristol West offers reasonably priced coverage if you are convicted of DUI, DWI, or OWI. We can also provide an SR-22/FR-44 certificate of financial responsibility, if needed.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree">
+                                Need an SR-22 / FR-44?
+                            </button>
+                        </h2>
+                        <div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#carInsuranceFaq">
+                            <div class="accordion-body">
+                                <p>
+                                    <strong>If you need an SR-22 / FR-44, we can help:</strong><br>
+                                    An SR-22 is a certificate of financial responsibility required by some states or courts. An FR-44 is similar and is used in Florida and Virginia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqFour">
+                                Need Rideshare Coverage?
+                            </button>
+                        </h2>
+                        <div id="faqFour" class="accordion-collapse collapse" data-bs-parent="#carInsuranceFaq">
+                            <div class="accordion-body">
+                                <p>
+                                    <strong>We provide Rideshare coverage:</strong><br>
+                                    Bristol West offers Rideshare coverage as an optional endorsement for drivers using platforms like Uber® or Lyft®. Not available in all states.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqFive">
+                                Don't own a car, but need Affordable Car Insurance?
+                            </button>
+                        </h2>
+                        <div id="faqFive" class="accordion-collapse collapse" data-bs-parent="#carInsuranceFaq">
+                            <div class="accordion-body">
+                                <p>
+                                    <strong>Need Car Insurance, but don't own a car, we can help:</strong><br>
+                                    A Non-Owner Auto insurance policy may help if you don’t own a car or don’t have regular access to a vehicle. Not available in all states.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+  <!-- Footer Start -->
+  <footer class="bw-footer">
+    <div class="container-fluid">
+
+      <div class="row text-center">
+        <div class="col-12">
+          <ul class="nav justify-content-center bw-footer-nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="terms.html">Terms of Use</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="" target="_blank">Careers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="" target="_blank">Privacy Center</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="" target="_blank">
+                Do Not Sell or Share My Personal Information
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="faqs.html">FAQ</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="">
+                Find an Agent or Broker
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="">Sitemap</a>
+            </li>
+
+            <li class="nav-item d-flex align-items-center justify-content-center">
+              <a class="nav-link" href="#">Your Privacy Choices</a>
+              
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-4 justify-content-center align-items-start">
+        <div class="col-12 col-md-auto mb-4 text-center">
+          <a href="/" aria-label="BristolWest Home">
+            <img
+              src="./images/bw-logo-white.webp"
+              width="49"
+              height="48"
+              alt=""
+            >
+          </a>
+
+          <a href="" title="farmers.com" class="ms-4">
+            <img
+              src="./images/farmers_logo.svg"
+              width="89"
+              height="48"
+              alt=""
+            >
+          </a>
+        </div>
+
+        <div class="col-12 col-md-8 col-lg-6">
+          <p class="bw-footer-disclaimer">
+            Bristol West is a proud member of the Farmers Insurance Group of Companies,
+            one of the nation’s largest insurer groups that offers a wide variety of
+            home, life, specialty, commercial and auto insurance products and services
+            across the <span class="text-nowrap">United States.</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center g-3 text-center">
+        <div class="col-auto">
+          <a href="" target="_blank">
+            <img
+              src="./images/ios.webp"
+              width="110"
+              height="32"
+              alt="Download on the App Store"
+            >
+          </a>
+        </div>
+
+        <div class="col-auto">
+          <a href="" target="_blank">
+            <img
+              src="./images/android.webp"
+              width="110"
+              height="32"
+              alt="Get it on Google Play"
+            >
+          </a>
+        </div>
+      </div>
+
+      <div class="text-center pt-3">
+        <p class="bw-copy">© 2026 Bristol West. All rights reserved</p>
+        <p class="bw-report">
+          <a href="" target="_blank" rel="noopener">
+            Report a Vulnerability
+          </a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

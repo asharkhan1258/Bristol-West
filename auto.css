@@ -1,0 +1,199 @@
+.auto-insurance-section{
+    background:#f6f8fb;
+}
+
+.auto-content-box{
+    border-radius:16px;
+}
+
+.auto-heading{
+    font-size:2.4rem;
+    font-weight:700;
+    color:#025aaa;
+}
+
+.auto-text{
+    font-size:1rem;
+    line-height:1.8;
+    color:#555;
+}
+
+.auto-highlight{
+    font-size:1.1rem;
+    font-weight:700;
+    color:#025aaa;
+    margin-bottom:0;
+}
+
+.coverage-icon-box{
+    width:70px;
+    flex-shrink:0;
+}
+
+.coverage-icon{
+    width:70px;
+    height:70px;
+    object-fit:contain;
+}
+
+.coverage-title{
+    font-size:1.45rem;
+    font-weight:700;
+    color:#222;
+    margin-bottom:8px;
+}
+
+.coverage-text{
+    font-size:1rem;
+    line-height:1.7;
+    color:#555;
+    margin-bottom:0;
+}
+.coverage-carousel-section{
+    background:#ffffff;
+}
+
+.carousel-main-img{
+    border-radius:16px;
+}
+
+.carousel-content{
+    max-width:760px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.carousel-content h4{
+    font-size:1.6rem;
+    font-weight:700;
+    color:#025aaa;
+}
+
+.carousel-content p{
+    font-size:1rem;
+    line-height:1.7;
+    color:#555;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color:#025aaa;
+    border-radius:50%;
+    padding:20px;
+}
+
+.carousel-indicators{
+    margin-bottom:-35px;
+}
+
+.carousel-indicators button{
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    background-color:#025aaa;
+}
+.auto-perks-section{
+    background:#ffffff;
+}
+
+.auto-perk-card{
+    background:#ffffff;
+    border-radius:16px;
+}
+
+.auto-perk-img{
+    width:100%;
+    height:auto;
+    object-fit:cover;
+    border-radius:16px;
+}
+
+.auto-perk-title{
+    font-size:1.35rem;
+    font-weight:700;
+    line-height:1.4;
+    color:#222;
+}
+
+.auto-perk-text{
+    font-size:1rem;
+    line-height:1.7;
+    color:#555;
+    margin-bottom:0;
+}
+
+.quote-faq-section{
+    background:#ffffff;
+}
+
+.quote-box{
+    background:#025aaa;
+    border-radius:16px;
+}
+
+.quote-title{
+    font-size:1.8rem;
+    font-weight:700;
+    color:#ffffff;
+}
+
+.quote-label{
+    font-size:1rem;
+    font-weight:600;
+    color:#ffffff;
+}
+
+.quote-input{
+    height:48px;
+    border-radius:8px;
+}
+
+.quote-btn{
+    height:48px;
+    background:#fd4d29;
+    color:#ffffff;
+    font-weight:700;
+    border-radius:8px;
+}
+
+.quote-btn:hover{
+    background:#e84222;
+    color:#ffffff;
+}
+
+.saved-quote-link{
+    color:#ffffff;
+    font-weight:600;
+    text-decoration:underline;
+}
+
+.faq-heading{
+    font-size:1.8rem;
+    font-weight:700;
+    color:#222;
+}
+
+.faq-accordion .accordion-item{
+    border:0;
+    border-bottom:1px solid #ddd;
+}
+
+.faq-accordion .accordion-button{
+    font-size:1.1rem;
+    font-weight:700;
+    color:#222;
+    background:#ffffff;
+    box-shadow:none;
+    padding:18px 0;
+}
+
+.faq-accordion .accordion-button:not(.collapsed){
+    color:#025aaa;
+    background:#ffffff;
+}
+
+.faq-accordion .accordion-body{
+    padding:5px 0 20px;
+    color:#555;
+    line-height:1.7;
+}

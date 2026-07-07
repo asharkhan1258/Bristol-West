@@ -1,0 +1,93 @@
+.claims-section{
+    background:#ffffff;
+}
+
+.claims-breadcrumb a{
+    color:#025aaa;
+    text-decoration:none;
+}
+
+.claims-main-heading{
+    font-size:2.4rem;
+    font-weight:700;
+    color:#222;
+}
+
+.claims-heading{
+    font-size:1.65rem;
+    font-weight:700;
+    color:#222;
+}
+
+.claims-box{
+    background:#ffffff;
+    border:1px solid #e4e4e4;
+    border-radius:16px;
+    padding:30px;
+}
+
+.claims-box p{
+    color:#555;
+    line-height:1.7;
+}
+
+.claims-tile{
+    border:1px solid #ddd;
+    border-radius:14px;
+    padding:16px;
+    background:#fff;
+    cursor:pointer;
+}
+
+.claims-tile:hover{
+    border-color:#025aaa;
+}
+
+.claims-img{
+    width:100%;
+    height:auto;
+    object-fit:contain;
+    margin-bottom:12px;
+}
+
+.claims-tile span{
+    display:block;
+    font-size:.95rem;
+    color:#333;
+    line-height:1.4;
+}
+
+.claims-btn{
+    background:#025aaa;
+    color:#ffffff;
+    font-weight:700;
+    border-radius:8px;
+    padding:12px 24px;
+}
+
+.claims-btn:hover{
+    background:#01477f;
+    color:#ffffff;
+}
+
+.claims-sidebar{
+    background:#f6f8fb;
+    border-radius:16px;
+}
+
+.claims-sidebar h2{
+    font-size:1.25rem;
+    font-weight:700;
+    color:#222;
+}
+
+.claims-sidebar p{
+    color:#555;
+    line-height:1.7;
+}
+
+.claims-sidebar a,
+.claims-box a{
+    color:#025aaa;
+    font-weight:600;
+}

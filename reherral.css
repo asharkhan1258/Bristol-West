@@ -1,0 +1,112 @@
+.referral-section{
+    background:#eef4fb;
+    padding:80px 0;
+}
+
+.referral-card{
+    background:#ffffff;
+    border-radius:24px;
+    box-shadow:0 18px 45px rgba(0,0,0,.10);
+    overflow:hidden;
+}
+
+.referral-header{
+    background:#025aaa;
+    padding:45px;
+    text-align:center;
+    color:#ffffff;
+}
+
+.referral-badge{
+    display:inline-block;
+    background:rgba(255,255,255,.18);
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.referral-header h1{
+    font-size:2.2rem;
+    font-weight:800;
+    margin-bottom:12px;
+}
+
+.referral-header p{
+    max-width:580px;
+    margin:0 auto;
+    line-height:1.7;
+    color:#eaf3ff;
+}
+
+.referral-form{
+    padding:45px;
+}
+
+.referral-form label{
+    font-weight:700;
+    color:#1f2937;
+    margin-bottom:8px;
+}
+
+.referral-form .form-control{
+    height:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:12px;
+    border:1px solid #d6dde8;
+    padding:12px 16px;
+}
+
+.referral-form .form-control:focus{
+    border-color:#025aaa;
+    box-shadow:0 0 0 .18rem rgba(2,90,170,.15);
+}
+
+.secure-box{
+    background:#f8fbff;
+    border:1px solid #dce8f5;
+    border-radius:18px;
+    padding:28px;
+}
+
+.secure-box h4{
+    font-size:1.35rem;
+    font-weight:800;
+    color:#025aaa;
+    margin-bottom:15px;
+}
+
+.secure-box ul{
+    padding-left:20px;
+    margin-bottom:15px;
+}
+
+.secure-box li{
+    margin-bottom:10px;
+    color:#333;
+}
+
+.secure-box p{
+    margin:0;
+    color:#b42318;
+    font-weight:600;
+}
+
+.referral-btn{
+    margin-top: 20px;
+    width:100%;
+    height:56px;
+    background:#fd4d29;
+    color:#ffffff;
+    border-radius:14px;
+    font-size:1rem;
+    font-weight:800;
+    border:none;
+}
+
+.referral-btn:hover{
+    background:#df3f1f;
+    color:#ffffff;
+}
